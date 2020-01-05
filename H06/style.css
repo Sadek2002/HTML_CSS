@@ -1,0 +1,92 @@
+#logo {
+    grid-column: 1/2;
+}
+form {
+    display: grid;
+    grid-template-columns: 125px 200px 100px 30px 150px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 40px 40px 50px;
+}
+.col1 {
+    grid-column:1/2;
+    text-align: center;
+}
+.col2 {
+    grid-column:2/3;
+}
+.col3 {
+    grid-column:3/4;
+    text-align: center;
+}
+.col4 {
+    grid-column: 4/5;
+}
+.sperziebonen {
+    grid-column: 4/5;
+    grid-row:1/2;
+}
+.aardappelen{
+    grid-column: 4/5;
+    grid-row:2/3;
+}
+.hamburger {
+    grid-column: 4/5;
+    grid-row:3/4;
+}
+.col5 {
+    grid-column: 5/6;
+}
+#textarea {
+    height: 600px;
+}
+img {
+    margin-bottom: 12px;
+}
+input {
+    margin-bottom: 3px;
+}
+select {
+    margin-bottom: 3px;
+    width:180px;
+}
+#inputgeboortedatum {
+    width: 160px;
+}
+textarea {
+    width: 280px;
+    height: 130px;
+    grid-column: 2/3;
+    grid-row: 8/9;
+}
+nav {
+    margin-bottom: 8px;
+}
+#buttons {
+    grid-column: 5/6;
+    grid-row: 11/12;
+    margin-right: 10px;
+}
+.buttonstyle {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    text-decoration: none;
+}
