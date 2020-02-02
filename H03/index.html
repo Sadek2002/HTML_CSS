@@ -5,23 +5,44 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        table {
+            text-align: center;
+            width: 500px;
+            height: 220px;
+            border-collapse: collapse;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
-
 <table border="1">
     <tr>
-        <td rowspan="2">Address 1<br> </td>
-        <td>Date</td>
-        <td>place:</td>
+    <td rowspan="2">State of Health</td>
+        <td colspan="2">Fasting value</td>
+        <td>After eating</td>
+    </tr>
+<td>Minimum</td>
+    <td>Maximum</td>
+    <td>2 Hours after eating</td>
+    <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
     </tr>
     <tr>
-        <td colspan="2">References:</td>
+    <td>Pre-diabetes
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
     </tr>
     <tr>
-        <td>  Address 3</td>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
     </tr>
 </table>
-
 </body>
 </html>

@@ -1,0 +1,20 @@
+* {
+    margin: 10px;
+    align-self: center;
+}
+
+ div.form-group {
+     width: 280px;
+     padding-bottom: 10px;
+ }
+input {
+    float: right;
+}
+div.radio {
+    width: 280px;
+    padding-inline: 50px;
+}
+div.eten {
+    width: 500px;
+    padding-left: 50px;
+}
